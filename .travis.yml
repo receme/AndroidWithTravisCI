@@ -4,3 +4,6 @@ android:
   components:
     - build-tools-21.1.1
     - android-23
+    - extra
+scripts:
+    - gradle build connectedCheck
